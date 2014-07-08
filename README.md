@@ -5,7 +5,7 @@ for the [Answers Platform](https://github.com/18f/answers)
 Dependencies
 ---
 
-[Vagrant](https://www.vagrantup.com/downloads.html_ (>=1.6)
+[Vagrant](https://www.vagrantup.com/downloads.html) (>=1.6)
 
 [Docker](https://docs.docker.com/installation/#installation)
 
@@ -20,3 +20,18 @@ To Get Started
 2. Be sure docker is running (if using boot2docker run `boot2docker init`) and pull down the trusted build from the docker registry with `docker pull dockerfile/elasticsearch`.
 3. Fire up Vagrant with `vagrant up --provider=docker` from the project root.
 4. Test elasticsearch with `curl -X GET 'http://localhost:9200/_status?pretty=true'`
+
+
+Roadmap
+---
+- Add WordNet synonym library
+
+
+Contributing
+---
+
+1. Fork it
+2. Create your feature branch (`git checkout -b feature/my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
