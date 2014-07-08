@@ -9,7 +9,7 @@ Dependencies
 
 [Docker](https://docs.docker.com/installation/#installation)
 
-- For OSX: I was successful with [boot2docker](https://github.com/boot2docker/osx-installer/releases). If you have issues with boot2docker or prefer a lightweight approach, try [this approach](http://zaiste.net/2014/02/lightweight_docker_experience_on_osx/).
+- For OSX: I was successful with [boot2docker](https://github.com/boot2docker/osx-installer/releases). If you have issues with boot2docker or prefer a lightweight approach, try [this](http://zaiste.net/2014/02/lightweight_docker_experience_on_osx/).
 
 
 
