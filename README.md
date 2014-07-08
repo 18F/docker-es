@@ -18,8 +18,9 @@ To Get Started
 
 1. Clone the repository `git clone git@github.com:18F/docker-es-nlp.git`
 2. Be sure docker is running (if using boot2docker run `boot2docker init`) and pull down the trusted build from the docker registry with `docker pull dockerfile/elasticsearch`.
-3. Fire up Vagrant with `vagrant up --provider=docker` from the project root.
-4. Test elasticsearch with `curl -X GET 'http://localhost:9200/_status?pretty=true'`
+3. Tell Vagrant where to find Docker by setting `export DOCKER_HOST=localhost`
+4. Fire up Vagrant with `vagrant up --provider=docker` from the project root.
+5. Test elasticsearch with `curl -X GET 'http://localhost:9200/_status?pretty=true'`
 
 
 Roadmap
