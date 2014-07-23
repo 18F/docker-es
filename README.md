@@ -1,6 +1,6 @@
-Docker ElasticSearch with NLP
+ElasticSearch in a Docker container
 =========
-for the [Answers Platform](https://github.com/18f/answers)
+Instant ElasticSearch server using Docker and the trusted build of ElasticSearch
 
 Dependencies
 ---
@@ -16,7 +16,7 @@ Dependencies
 To Get Started
 ---
 
-1. Clone the repository `git clone git@github.com:18F/docker-es-nlp.git`
+1. Clone the repository `git clone git@github.com:18F/docker-es.git`
 2. Tell Vagrant where to find Docker by setting `export DOCKER_HOST=tcp://localhost:2375`
 3. Be sure docker is running (if using boot2docker run `boot2docker init` and `boot2docker up`) and pull down the trusted build from the docker registry with `docker pull dockerfile/elasticsearch`.
 4. Fire up Vagrant with `vagrant up --provider=docker` from the project root.
@@ -25,7 +25,7 @@ To Get Started
 
 Roadmap
 ---
-- Add WordNet synonym library
+- Coming soon
 
 
 Contributing
